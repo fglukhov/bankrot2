@@ -1,0 +1,11 @@
+<svg width="256" height="244" viewBox="0 0 256 244" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="32" cy="32" r="32" fill="white"/>
+<circle cx="32" cy="212" r="32" fill="white"/>
+<circle cx="32" cy="128" r="32" fill="white"/>
+<circle cx="128" cy="32" r="32" fill="white"/>
+<circle cx="128" cy="212" r="32" fill="white"/>
+<circle cx="128" cy="128" r="32" fill="white"/>
+<circle cx="224" cy="32" r="32" fill="white"/>
+<circle cx="224" cy="212" r="32" fill="white"/>
+<circle cx="224" cy="128" r="32" fill="white"/>
+</svg>

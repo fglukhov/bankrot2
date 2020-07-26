@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Банкротство</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="js/bootstrap-fileinput/css/fileinput.min.css">
+    <link rel="stylesheet" href="js/pickadate/classic.css">
+    <link rel="stylesheet" href="js/pickadate/classic.date.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <div class="over-wrapper">
+      <div id="mobile-indicator"></div>
+      <div id="sm-indicator"></div>
+      <header>
+        <div class="container">
+          <div class="header-content">
+            <div class="row">
+              <div class="header-col-1">
+                <div class="header-logo"><img src="images/logo.svg" alt="Банкротство"></div>
+              </div>
+              <div class="header-col-2">
+                <div class="navbar-trigger"><span></span><span></span><span></span></div>
+                <div class="navbar-wrapper">
+                  <div class="navbar-wrapper-inner">
+                    <div class="close"></div>
+                    <ul class="nav navbar-nav">
+                      <li><a href="#stages"><span>Этапы</span></a></li>
+                      <li><a href="#cases"><span>Кейсы</span></a></li>
+                      <li><a href="#court"><span>Проверка в&nbsp;суде</span></a></li>
+                      <li><a href="#contacts"><span>Контакты</span></a></li>
+                    </ul>
+                    <div class="d-block d-md-none">
+                      <div class="header-button-mob"><a class="btn-feedback" href="#" data-toggle="modal" data-target="#feedbackModal">Написать нам</a></div>
+                      <div class="header-phone-mob"><a href="tel:+7 495 111-11-11">+7 495 111-11-11</a></div>
+                      <div class="messengers messengers-mob"><a class="messengers-item" href="#"><img src="images/ico-whatsapp.svg"></a><a class="messengers-item" href="#"><img src="images/ico-telegram.svg"></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header-col-3">
+                <div class="header-contacts">
+                  <div class="row">
+                    <div class="header-button-col">
+                      <div class="header-button"><a class="btn-feedback" href="#" data-toggle="modal" data-target="#feedbackModal">Написать нам</a></div>
+                    </div>
+                    <div class="header-phone-col">
+                      <div class="header-phone"><a href="tel:8 495 111-11-11">8 495 111-11-11</a></div>
+                    </div>
+                    <div class="header-messengers-col">
+                      <div class="messengers header-messengers"><a class="messengers-item" href="#"><img src="images/ico-whatsapp.svg"></a><a class="messengers-item" href="#"><img src="images/ico-telegram.svg"></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="page-wrapper">
+          <!-- Верхний блок-->
+          <div class="section section-top">
+            <div class="container">
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="section-top-descr">
+                      <h1>Банкротство физических лиц любой сложности <span>от&nbsp;8&nbsp;000 руб./мес.</span></h1>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="section-top-pic">
+                      <div class="section-top-pic-inner">
+                        <div class="section-top-pic-pic"><img src="images/section-top-pic.jpg"></div>
+                        <div class="section-top-pic-button"><a class="btn btn-1" href="#" data-toggle="modal" data-target="#consultModal">Получить консультацию</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Верхний блок END-->
+          <!-- Преимущества-->
+          <div class="section section-pros">
+            <div class="container">
+              <div class="section-content">
+                <div class="pros-list">
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <div class="pros-tmb">
+                        <div class="pros-tmb-pic"><img src="images/pros-1.svg"></div>
+                        <div class="pros-tmb-descr">
+                          <h3>Мы&nbsp;не&nbsp;берем с&nbsp;Вас деньги</h3>
+                          <p>До&nbsp;назначение финансового управляющего Арбитражным судом</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="pros-tmb">
+                        <div class="pros-tmb-pic"><img src="images/pros-2.svg"></div>
+                        <div class="pros-tmb-descr">
+                          <h3>У&nbsp;нас нет менеджеров по&nbsp;продажам</h3>
+                          <p>Вам сразу ответит арбитражный управляющий или юрист</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Преимущества	END-->
+          <!-- Гарантия-->
+          <div class="section section-garant">
+            <div class="container">
+              <div class="section-content section-content-narrow">
+                <div class="corner corner-1"></div>
+                <div class="corner corner-2"></div>
+                <div class="corner corner-3"></div>
+                <div class="corner corner-4"></div>
+                <div class="row">
+                  <div class="col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <div class="section-content-inner">
+                      <div class="garant-ttl">Банкротстство</div>
+                      <div class="garant-wrapper">
+                        <div class="garant-sub-ttl">Гарантия результата прописана в&nbsp;договоре. В&nbsp;случае не&nbsp;исполнения мы&nbsp;оплатим все ваши долги</div>
+                        <div class="garant-form">
+                          <form id="garantForm">
+                            <div class="row">
+                              <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                  <label class="placeholder placeholder" for="garant_name">Ваше имя</label>
+                                  <input id="garant_name" type="text" name="garant_name" required>
+                                </div>
+                              </div>
+                              <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                  <label class="placeholder" for="garant_phone">Телефон</label>
+                                  <input class="input-phone" id="garant_phone" type="text" name="garant_phone" required>
+                                </div>
+                              </div>
+                              <div class="col-12">
+                                <div class="form-agree">
+                                  <div class="form-checkbox">
+                                    <input type="checkbox" name="garant_agree" id="garant_agree" required>
+                                    <label for="garant_agree">Я&nbsp;даю свое согласие с&nbsp;<a href="#">политикой обработки персональных данных</a></label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12">
+                                <div class="form-footer">
+                                  <button class="btn btn-1" type="submit"><span>Отправить</span></button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Гарантия END-->
+          <!-- Стадии 1-->
+          <div class="section section-stages section-stages-1">
+            <div class="container">
+              <div class="section-content">
+                <div class="section-header">
+                  <div class="row">
+                    <div class="col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                      <h2>Сразу после начала процедуры</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="start-wrapper">
+                  <div class="row">
+                    <div class="col-12 col-md-4">
+                      <div class="start-tmb">
+                        <div class="start-tmb-inner">
+                          <div class="start-tmb-pic"><img src="images/start-bg-1.svg"></div>
+                          <div class="start-tmb-descr">
+                            <h3>Звонки коллекторов прекратятся</h3>
+                            <p>У&nbsp;нас нет менеджеров по&nbsp;продажам, Вам сразу ответит арбитражный управляющий или юрист</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="start-tmb">
+                        <div class="start-tmb-inner">
+                          <div class="start-tmb-pic"><img src="images/start-bg-2.svg"></div>
+                          <div class="start-tmb-descr">
+                            <h3>Все аресты и&nbsp;исполнительные производства прекращаются</h3>
+                            <p>Судебные приставы приостанавливают Ваши исполнительные производства, снимают Ваши аресты и&nbsp;иные наложенные ограничения</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="start-tmb">
+                        <div class="start-tmb-inner">
+                          <div class="start-tmb-pic"><img src="images/start-bg-3.svg"></div>
+                          <div class="start-tmb-descr">
+                            <h3>Всё Ваше личное имущество и&nbsp;жильё останется в&nbsp;Вашем распоряжении</h3>
+                            <p>По&nbsp;закону НЕ&nbsp;МОЖЕТ быть обращено взыскание на&nbsp;Всё Ваше личное имущество и&nbsp;единственное жильё (если это не&nbsp;ипотека)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Стадии 1	END-->
+          <!-- Стадии 2-->
+          <div class="section section-stages section-stages-2">
+            <div class="container">
+              <div class="section-content">
+                <div class="section-header">
+                  <div class="row">
+                    <div class="col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                      <h2>3 незначительных неудобства</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="inc-list">
+                  <div class="row">
+                    <div class="col-12 col-md-4">
+                      <div class="inc-tmb">
+                        <div class="inc-tmb-num"><span>5</span></div>
+                        <div class="inc-tmb-descr">
+                          <p>лет нужно указывать на&nbsp;факт банкротства в&nbsp;заявлениях на&nbsp;кредиты</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="inc-tmb">
+                        <div class="inc-tmb-num"><span>5</span></div>
+                        <div class="inc-tmb-descr">
+                          <p>лет нельзя повторно объявить себя банкротом</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="inc-tmb">
+                        <div class="inc-tmb-num"><span>3</span></div>
+                        <div class="inc-tmb-descr">
+                          <p>года нельзя занимать должность генерального директора&nbsp;юр. лица</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Стадии 2	END-->
+          <!-- Стадии 2-->
+          <div class="section section-stages section-stages-3">
+            <div class="container">
+              <div class="section-content"><a name="stages"></a>
+                <div class="section-header">
+                  <div class="row">
+                    <div class="col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                      <h2>Этапы банкротства</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="stages-header">
+                  <div class="stages-header-pic"><img src="images/stages-header-pic.png"></div>
+                  <div class="stages-header-descr">
+                    <div class="stages-header-num">
+                      <p>6-8</p>
+                    </div>
+                    <div class="stages-header-text">
+                      <p>месяцев средний срок проведения процедуры банкротства</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="stages-list">
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="stage-tmb">
+                        <div class="stage-tmb-num">01</div>
+                        <div class="stage-tmb-descr">
+                          <p>Анализ рисков и&nbsp;сбор документов</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="stage-tmb">
+                        <div class="stage-tmb-num">02</div>
+                        <div class="stage-tmb-descr">
+                          <p>Составим заявление и&nbsp;подадим документы в&nbsp;суд</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="stage-tmb">
+                        <div class="stage-tmb-num">03</div>
+                        <div class="stage-tmb-descr">
+                          <p>Назначение финансового управляющего и&nbsp;проведение комплекса задач предусмотренных фз&nbsp;127</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="stage-tmb">
+                        <div class="stage-tmb-num">04</div>
+                        <div class="stage-tmb-descr">
+                          <p>Успешное завершение процедуры банкотсва</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="answer-wrapper">
+                  <div class="answer-text">
+                    <p>Ответим на&nbsp;все ваши вопросы по&nbsp;процедуре банкротства по&nbsp;телефону&nbsp;<a href="tel:+7 (495) 111-11-11">+7 (495) 111-11-11</a> или пишите&nbsp;в<span class="messengers-inline"><a class="messengers-item-inline" href="#"><img src="images/ico-whatsapp.svg"></a><a class="messengers-item-inline" href="#"><img src="images/ico-telegram.svg"></a></span></p>
+                  </div>
+                  <div class="answer-pic"><img src="images/answer-pic.png"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Стадии 2	END-->
+          <!-- Кейсы-->
+          <div class="section section-cases">
+            <div class="container">
+              <div class="section-content"><a name="cases"></a>
+                <div class="section-cases-ttl">Банкротство</div>
+                <div class="row">
+                  <div class="col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <div class="section-header">
+                      <div class="section-header-inner">
+                        <h2>Мы завершили</h2>
+                        <div class="cases-nums">
+                          <div class="cases-num"><span>382</span> дела на&nbsp;сумму более</div>
+                          <div class="cases-num"><span>19 244 000</span> рублей</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-wrapper cases-slider-wrapper">
+                  <div class="cases-slider">
+                    <div class="slide"><a class="case-tmb" href="files/case-1.jpg" data-fancybox="cases_gal">
+                        <div class="case-tmb-descr">
+                          <div class="case-tmb-name">Константинопольский Алексей Михайлович</div>
+                          <div class="case-tmb-city">Москва</div>
+                          <div class="case-tmb-text">
+                            <p>Проверим в&nbsp;режиме реального времени Вас по&nbsp;всем базам судов и&nbsp;приставов на&nbsp;наличие судебных процессов и&nbsp;исполнительных производств.</p>
+                          </div>
+                          <div class="case-tmb-sum">12 670 000</div>
+                          <div class="case-tmb-sum-ttl">Списано долга</div>
+                        </div>
+                        <div class="case-tmb-pic"><img src="files/case-1-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="case-tmb" href="files/case-1.jpg" data-fancybox="cases_gal">
+                        <div class="case-tmb-descr">
+                          <div class="case-tmb-name">Иванова Маргарита Николаевна</div>
+                          <div class="case-tmb-city">Москва</div>
+                          <div class="case-tmb-text">
+                            <p>Проверим в&nbsp;режиме реального времени Вас по&nbsp;всем базам судов и&nbsp;приставов на&nbsp;наличие судебных процессов и&nbsp;исполнительных производств.</p>
+                          </div>
+                          <div class="case-tmb-sum">900 000</div>
+                          <div class="case-tmb-sum-ttl">Списано долга</div>
+                        </div>
+                        <div class="case-tmb-pic"><img src="files/case-1-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="case-tmb" href="files/case-1.jpg" data-fancybox="cases_gal">
+                        <div class="case-tmb-descr">
+                          <div class="case-tmb-name">Константинопольский Алексей Михайлович</div>
+                          <div class="case-tmb-city">Москва</div>
+                          <div class="case-tmb-text">
+                            <p>Проверим в&nbsp;режиме реального времени Вас по&nbsp;всем базам судов и&nbsp;приставов на&nbsp;наличие судебных процессов и&nbsp;исполнительных производств.</p>
+                          </div>
+                          <div class="case-tmb-sum">12 670 000</div>
+                          <div class="case-tmb-sum-ttl">Списано долга</div>
+                        </div>
+                        <div class="case-tmb-pic"><img src="files/case-1-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="case-tmb" href="files/case-1.jpg" data-fancybox="cases_gal">
+                        <div class="case-tmb-descr">
+                          <div class="case-tmb-name">Иванова Маргарита Николаевна</div>
+                          <div class="case-tmb-city">Москва</div>
+                          <div class="case-tmb-text">
+                            <p>Проверим в&nbsp;режиме реального времени Вас по&nbsp;всем базам судов и&nbsp;приставов на&nbsp;наличие судебных процессов и&nbsp;исполнительных производств.</p>
+                          </div>
+                          <div class="case-tmb-sum">12 670 000</div>
+                          <div class="case-tmb-sum-ttl">Списано долга</div>
+                        </div>
+                        <div class="case-tmb-pic"><img src="files/case-1-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="case-tmb" href="files/case-1.jpg" data-fancybox="cases_gal">
+                        <div class="case-tmb-descr">
+                          <div class="case-tmb-name">Константинопольский Алексей Михайлович</div>
+                          <div class="case-tmb-city">Москва</div>
+                          <div class="case-tmb-text">
+                            <p>Проверим в&nbsp;режиме реального времени Вас по&nbsp;всем базам судов и&nbsp;приставов на&nbsp;наличие судебных процессов и&nbsp;исполнительных производств.</p>
+                          </div>
+                          <div class="case-tmb-sum">12 670 000</div>
+                          <div class="case-tmb-sum-ttl">Списано долга</div>
+                        </div>
+                        <div class="case-tmb-pic"><img src="files/case-1-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="case-tmb" href="files/case-1.jpg" data-fancybox="cases_gal">
+                        <div class="case-tmb-descr">
+                          <div class="case-tmb-name">Иванова Маргарита Николаевна</div>
+                          <div class="case-tmb-city">Москва</div>
+                          <div class="case-tmb-text">
+                            <p>Проверим в&nbsp;режиме реального времени Вас по&nbsp;всем базам судов и&nbsp;приставов на&nbsp;наличие судебных процессов и&nbsp;исполнительных производств.</p>
+                          </div>
+                          <div class="case-tmb-sum">12 670 000</div>
+                          <div class="case-tmb-sum-ttl">Списано долга</div>
+                        </div>
+                        <div class="case-tmb-pic"><img src="files/case-1-tmb.jpg"></div></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Кейсы	END-->
+          <!-- Заказ-->
+          <div class="section section-order">
+            <div class="container">
+              <div class="section-content"><a name="court"></a>
+                <div class="section-header">
+                  <h2>Бесплатно проверим Вас по&nbsp;всем базам судов и&nbsp;приставов</h2>
+                  <div class="section-sub-ttl">
+                    <p>на&nbsp;наличие судебных процессов и&nbsp;исполнительных производств</p>
+                  </div>
+                </div>
+                <div class="form-alt order-form">
+                  <form id="orderForm">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group">
+                          <label class="placeholder placeholder" for="order_name">ФИО полностью</label>
+                          <input id="order_name" type="text" name="order_name" required>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-group">
+                          <label class="placeholder placeholder" for="order_address">Адрес регистрации</label>
+                          <input id="order_address" type="text" name="order_address" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-8">
+                        <div class="form-group">
+                          <label class="placeholder" for="order_phone">Телефон</label>
+                          <input class="input-phone" id="order_phone" type="text" name="order_phone" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-4">
+                        <div class="form-group">
+                          <label class="placeholder" for="order_date">Дата рождения</label>
+                          <input class="input-date" id="order_date" type="text" name="order_date" required>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-agree">
+                          <div class="form-checkbox">
+                            <input type="checkbox" name="order_agree" id="order_agree" required>
+                            <label for="order_agree">Я&nbsp;даю свое согласие с&nbsp;<a href="#">политикой обработки персональных данных</a></label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-footer">
+                          <button class="btn btn-2" type="submit"><span>Отправить		</span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Заказ	END-->
+          <!-- Контакты-->
+          <div class="section section-contacts">
+            <div class="container">
+              <div class="section-content section-content-narrow">
+                <div class="corner corner-1"></div>
+                <div class="corner corner-2"></div>
+                <div class="corner corner-3"></div>
+                <div class="corner corner-4"></div>
+                <div class="row">
+                  <div class="col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <div class="section-content-inner"><a name="contacts"></a>
+                      <div class="section-header">
+                        <h2>Как мы можем пообщаться</h2>
+                      </div>
+                      <div class="contacts-wrapper">
+                        <div class="contacts-top">
+                          <div class="row">
+                            <div class="col-12 col-md-6">
+                              <h3>Дистанционно</h3>
+                              <div class="contacts-phone"><a href="tel: +7 (495) 111-11-11">+7 (495) 111-11-11</a></div>
+                              <div class="messengers contacts-messengers"><a class="messengers-item" href="#"><img src="images/ico-skype-big.svg"></a><a class="messengers-item" href="#"><img src="images/ico-zoom-big.svg"></a><a class="messengers-item" href="#"><img src="images/ico-telegram-big.svg"></a><a class="messengers-item" href="#"><img src="images/ico-whatsapp-big.svg"></a></div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                              <h3>В&nbsp;офисе</h3>
+                              <div class="contacts-address">
+                                <p>Москва, ул. Название улицы, 22, офис 11</p>
+                                <p>Здание БЦ “Бизнесс”</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="contacts-pic">
+                          <div class="contacts-pic-inner"><img src="images/section-top-pic.jpg"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Контакты	END-->
+        </div>
+      </main>
+      <div class="modal fade form-modal" id="feedbackModal" tabindex="-1">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/close.svg"></button>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="container">
+              <div class="modal-header">
+                <h2>Вам нужна помощь?</h2>
+                <p>У нас нет менеджеров по продажам, Вам сразу ответит арбитражный управляющий или юрист</p>
+              </div>
+              <div class="modal-body">
+                <div class="modal-form form-alt">
+                  <form id="feedbackForm">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group">
+                          <label class="placeholder" for="feedback_name">ФИО полностью</label>
+                          <input id="feedback_name" type="text" name="feedback_name" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="form-group">
+                          <label class="placeholder" for="feedback_phone">Телефон</label>
+                          <input class="input-phone" id="feedback_phone" type="text" name="feedback_phone" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="form-group">
+                          <label class="placeholder" for="feedback_email">E-mail</label>
+                          <input id="feedback_email" type="email" name="feedback_email" required>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-group">
+                          <label class="placeholder" for="feedback_message">Сообщение</label>
+                          <textarea id="feedback_message" name="feedback_message" rows="3"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-agree">
+                          <div class="form-checkbox">
+                            <input type="checkbox" name="feedback_agree" id="feedback_agree" required>
+                            <label for="feedback_agree">Я&nbsp;даю свое согласие с&nbsp;<a href="#">политикой обработки персональных данных</a></label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-footer">
+                          <button class="btn btn-2" type="submit"><span>Отправить</span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="consultModal" tabindex="-1">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/close.svg"></button>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="container">
+              <div class="modal-header">
+                <h2>Получить консультацию</h2>
+                <p>У нас нет менеджеров по продажам, Вам сразу ответит арбитражный управляющий или юрист</p>
+              </div>
+              <div class="modal-body">
+                <div class="modal-form form-alt">
+                  <form id="consultForm">
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <div class="form-group">
+                          <label class="placeholder" for="consult_name">ФИО полностью</label>
+                          <input id="consult_name" type="text" name="consult_name" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="form-group">
+                          <label class="placeholder" for="consult_phone">Телефон</label>
+                          <input class="input-phone" id="consult_phone" type="text" name="consult_phone" required>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-agree">
+                          <div class="form-checkbox">
+                            <input type="checkbox" name="consult_agree" id="consult_agree" required>
+                            <label for="consult_agree">Я&nbsp;даю свое согласие с&nbsp;<a href="#">политикой обработки персональных данных</a></label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-footer">
+                          <button class="btn btn-2" type="submit"><span>Отправить</span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade success-modal form-modal" id="successModal" tabindex="-1">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/close.svg"></button>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2"><span>Ваша заявка успешно принята!</span></div>
+            </div>
+            <div class="modal-body">
+              <div class="text">
+                <p>Перезвоним в течение 15 минут</p>
+              </div>
+              <div class="success-modal-button">
+                <button class="btn btn-2" type="button" data-dismiss="modal" aria-label="Close">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/additional-methods.min.js"></script>
+      <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/wNumb.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/fancybox/jquery.fancybox.min.js"></script>
+      <script src="js/pickadate/picker.js"></script>
+      <script src="js/pickadate/picker.date.js"></script>
+      <script src="js/pickadate/pickadate.ru.js"></script>
+      <!--script(src='js/greensock/TweenMax.min.js')-->
+      <!--script(src='js/greensock/plugins/CSSRulePlugin.min.js')-->
+      <!--script(src='js/greensock/plugins/ScrollToPlugin.min.js')-->
+      <!--script(src='js/iscroll-probe.js')-->
+      <!--script(src='js/scrollmagic/ScrollMagic.min.js')-->
+      <!--script(src='js/scrollmagic/plugins/animation.gsap.min.js')-->
+      <!--script(src='js/jquery.mousewheel.js')-->
+      <script src="js/bootstrap-fileinput/js/fileinput.min.js"></script>
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>
