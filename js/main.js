@@ -694,12 +694,12 @@ $(document).ready(function() {
 		if ($("#contactsMap").length) {
 
 			var myMap = new ymaps.Map('contactsMap', {
-					center: [55.753215, 37.622504],
+					center: [55.744064, 37.541386],
 					zoom: 17,
 					controls: ['zoomControl']
 				}, {}),
 
-				myPlacemark = new ymaps.Placemark([55.753215, 37.622504], {
+				myPlacemark = new ymaps.Placemark([55.744064, 37.541386], {
 					hintContent: '',
 					balloonContent: ''
 				}, {
@@ -858,9 +858,10 @@ $(document).ready(function() {
 		pickerField.pickadate({
 			monthsFull: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
 			format: 'd.mm.yyyy',
-			min: new Date(),
+			max: new Date(),
 			selectYears: true,
 			selectMonths: true,
+			selectYears: 100,
 			onSet: function () {
 				pickerField.closest(".form-group").find("label.placeholder").addClass("active");
 			}

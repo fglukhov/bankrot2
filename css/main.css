@@ -1303,11 +1303,11 @@ main {
 .garant-ttl {
   text-align: center;
   font-size: 50px;
-  line-height: 40px;
+  line-height: 60px;
   text-transform: uppercase;
   font-weight: 500;
   color: #fff;
-  letter-spacing: 40px;
+  letter-spacing: 15px;
   margin: 0 -150px 0 -150px; }
 
 .garant-sub-ttl {
@@ -1577,12 +1577,12 @@ main {
 .section-cases-ttl {
   text-align: center;
   font-size: 50px;
-  line-height: 40px;
+  line-height: 60px;
   text-transform: uppercase;
   font-weight: 500;
   color: #fff;
-  letter-spacing: 40px;
-  margin: 0 -150px 0 -150px; }
+  letter-spacing: 20px;
+  margin: 0; }
 
 .section-cases .section-header {
   position: relative;
